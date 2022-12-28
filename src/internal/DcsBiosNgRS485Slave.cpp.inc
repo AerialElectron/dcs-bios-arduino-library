@@ -78,6 +78,7 @@ namespace DcsBios {
 				} else {
 					state = RX_WAIT_ADDRESS;
 				}
+				// fall through
 			// no break statement here, we want it to fall through to the next case!
 			
 			case RX_WAIT_ADDRESS:
